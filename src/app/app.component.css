@@ -1,0 +1,39 @@
+/* styles.css */
+
+
+
+
+/* styles.css */
+.containe {
+    display: flex;             
+               
+      /* Stack navbar on top */
+}
+
+.navbar {
+    background-color: #333;   /* Dark background for navbar */
+    color: white;             /* White text color */
+    padding: 10px;           /* Padding around navbar */
+}
+
+.navbar ul {
+    list-style-type: none;    /* Remove bullet points */
+    margin: 0;                /* Remove default margin */
+    padding: 0;               /* Remove default padding */
+    display: flex;            /* Horizontal layout for links */
+}
+
+.navbar li {
+    margin-right: 20px;       /* Space between links */
+}
+
+.navbar a {
+    color: white;             /* Link color */
+    text-decoration: none;    /* Remove underline */
+}
+
+
+.column{
+    flex: 1;
+
+}

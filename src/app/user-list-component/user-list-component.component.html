@@ -1,0 +1,28 @@
+
+
+  
+<h2 style="color: rgb(191, 1, 1);" align="center">User list</h2>
+<div align="center">
+  <table>
+    <tr >
+      <th align="left"> User Id </th>
+      <th style="padding-left: 10px;" align="left"> Name</th>
+      <th style="padding-left: 10px;" align="left">Gender</th>
+      <!----- <th class="pl-50" align="left">Last Name</th>
+    <th class="pl-50" align="left">Email</th>
+      --->
+     
+    </tr>
+    <tr *ngFor="let user of data">
+      <td>{{user.id}}</td>
+      <td style="padding-left: 10px;">{{user.first_name}} {{user.last_name}}</td>
+      <td style="padding-left: 10px;">{{user.gender}}</td>
+     <!-----<td class="pl-50">{{user.last_name}}</td>
+      <td class="pl-50">{{user.email}}</td>
+      -->
+    </tr>
+  </table>
+  
+
+
+</div>
